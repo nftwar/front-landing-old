@@ -1,5 +1,6 @@
-import { Logo } from "../components/header/logo";
+import { Logo } from "../components/logo";
 import { Link } from "../components/header/Link";
+import { PlayButton } from "../components/header/playButton";
 
 function Header() {
 	return (
@@ -17,9 +18,7 @@ function Header() {
 				</div>
 				<div className={"flex items-center gap-x-9"}>
 					<Link href={"#"}>Token</Link>
-					<button className={"inline-block px-12 py-2.5 rounded-[5px] min-w-[140px] bg-black text-white"}>
-						Play
-					</button>
+					<PlayButton />
 				</div>
 			</div>
 		</header>

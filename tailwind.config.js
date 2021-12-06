@@ -7,7 +7,11 @@ module.exports = {
   ],
   darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        "7.5": "1.875rem",
+      },
+    },
   },
   variants: {
     extend: {},
