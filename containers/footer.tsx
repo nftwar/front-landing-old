@@ -13,9 +13,9 @@ function Footer() {
 						<Logo />
 						
 						<div className={"flex items-center gap-x-16"}>
-							<Link href={"#"}>About</Link>
+							<Link href={"/about"}>About</Link>
 							<Link href={"#"}>Contact</Link>
-							<Link href={"#"}>Whitepager</Link>
+							<Link href={"/white-paper"}>Whitepaper</Link>
 						</div>
 					</div>
 					
@@ -32,7 +32,15 @@ function Footer() {
 				{/* info */}
 				<div className={"flex items-center gap-x-7.5"}>
 					<p className={"text-[0.875rem]"}>© 2021 — </p>
-					<p className={"text-[0.875rem]"}>Privacy — Terms</p>
+					<p className={"text-[0.875rem] flex gap-x-[8px]"}>
+						<Link href={"/privacy"}>
+							<a className={"font-normal"}>Privacy</a>
+						</Link>
+						—
+						<Link href={"/terms"}>
+							<a className={"font-normal"}>Terms</a>
+						</Link>
+					</p>
 				</div>
 				
 				{/* line */}

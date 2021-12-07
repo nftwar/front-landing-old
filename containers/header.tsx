@@ -13,7 +13,7 @@ function Header() {
 						<Link href={"#"}>Market</Link>
 						<Link href={"#"}>Game</Link>
 						<Link href={"#"}>News</Link>
-						<Link href={"#"}>Whitepaper</Link>
+						<Link href={"/white-paper"}>Whitepaper</Link>
 					</div>
 				</div>
 				<div className={"flex items-center gap-x-9"}>
