@@ -1,6 +1,6 @@
 import { Logo } from "../components/logo";
 import { Link } from "../components/header/Link";
-import { PlayButton } from "../components/header/playButton";
+import { PlayButton } from "../components/playButton";
 
 function Header() {
 	return (
