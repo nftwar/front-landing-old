@@ -62,10 +62,12 @@ export default function Home() {
             </div>
             <img className="absolute w-full h-full z-[-1] object-cover" src="/assets/image/city.png" alt="" />
         </section>
-        <section className={"bg-[#F2F2F2] flex items-center justify-center py-[110px]"}>
+        <section className={"bg-[#303030] flex items-center justify-center py-[110px]"}>
             <div className={"container mx-auto grid grid-cols-2 gap-x-[30px]"}>
-                <div className={"bg-white grid-span-1 h-[360px] border-solid border-[1px] border-black rounded-[8px]"} />
-                <div className={"bg-white grid-span-1 h-[360px] border-solid border-[1px] border-black rounded-[8px] p-8 pl-12 text-[20px]"}>
+                <div className={"flex justify-center items-center bg-white grid-span-1 h-[360px] border-solid border-[1px] border-black rounded-[8px]"}>
+                    <h1 className={"text-[32px]"}>needs image</h1>
+                </div>
+                <div className={"bg-gradient-to-br text-white from-[#0D2289] to-[#06093B] grid-span-1 h-[360px] border-solid border-[3px] border-[#c6c6c6] rounded-[8px] p-8 pl-12 text-[20px]"}>
                     <h3 className={"mb-[24px] font-bold"}>LAND</h3>
                     <p className={"mb-[42px] "}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -79,9 +81,9 @@ export default function Home() {
             </div>
         </section>
     
-          <section className={"bg-[#F2F2F2] flex items-center justify-center py-[110px]"}>
+          <section className={"bg-[#303030] flex items-center justify-center py-[110px]"}>
               <div className={"container mx-auto grid grid-cols-2 gap-x-[30px]"}>
-                  <div className={"bg-white grid-span-1 h-[360px] border-solid border-[1px] border-black rounded-[8px] p-8 pl-12 text-[20px]"}>
+                  <div className={"bg-gradient-to-br text-white from-[#0D2289] to-[#06093B] grid-span-1 h-[360px] border-solid border-[3px] border-[#c6c6c6] rounded-[8px] p-8 pl-12 text-[20px]"}>
                       <h3 className={"mb-[24px] font-bold"}>CLAN</h3>
                       <p className={"mb-[42px] "}>
                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -92,7 +94,9 @@ export default function Home() {
                           <li>Benefit of Feature</li>
                       </ul>
                   </div>
-                  <div className={"bg-white grid-span-1 h-[360px] border-solid border-[1px] border-black rounded-[8px]"} />
+                  <div className={"flex justify-center items-center bg-white grid-span-1 h-[360px] border-solid border-[1px] border-black rounded-[8px]"}>
+                      <h1 className={"text-[32px]"}>needs image</h1>
+                  </div>
               </div>
           </section>
       </main>
