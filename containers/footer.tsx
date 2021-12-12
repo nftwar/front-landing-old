@@ -33,11 +33,11 @@ function Footer() {
 					<p className={"text-[0.875rem]"}>© 2021 — </p>
 					<p className={"text-[0.875rem] flex gap-x-[8px]"}>
 						<Link href={"/privacy"}>
-							<a className={"font-normal"}>Privacy</a>
+							<span className={"font-normal"}>Privacy</span>
 						</Link>
 						—
 						<Link href={"/terms"}>
-							<a className={"font-normal"}>Terms</a>
+							<span className={"font-normal"}>Terms</span>
 						</Link>
 					</p>
 				</div>
