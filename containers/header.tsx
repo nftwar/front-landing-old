@@ -4,7 +4,7 @@ import { PlayButton } from "../components/playButton";
 
 function Header() {
 	return (
-		<header className={"sticky top-0 inset-x-0 bg-white z-50 shadow-lg"}>
+		<header className={"sticky top-0 inset-x-0 bg-[#303030] text-white z-50 shadow-lg"}>
 			<div className={"container flex items-center justify-between mx-auto h-16 px-10 py-3"}>
 				<div className={"flex items-center gap-x-8"}>
 					<Logo />
