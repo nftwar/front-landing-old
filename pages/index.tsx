@@ -28,7 +28,7 @@ export default function Home() {
                 />
             </video>
         </section>
-        <section className={"relative grid grid-cols-2 py-24 bg-black bg-black/25"}>
+        <section className={"relative grid grid-cols-2 py-24 bg-black bg-black/25 min-h-[900px]"}>
             <div className={"flex justify-center items-center col-span-1 py-28"}>
             </div>
             <div className={"flex justify-center items-center col-span-1"}>
@@ -44,7 +44,7 @@ export default function Home() {
             </div>
             <img className="absolute w-full h-full z-[-1] object-cover" src="/assets/image/garage.png" alt="" />
         </section>
-        <section className={"relative flex justify-center items-center py-24"}>
+        <section className={"relative flex justify-center items-center py-24 min-h-[400px]"}>
             <div className={"container mx-auto flex items-center justify-between"}>
                 <h3 className={"text-[32px] font-bold"}></h3>
                 <div className={"flex items-center gap-x-4"}>
