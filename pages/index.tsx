@@ -32,13 +32,13 @@ export default function Home() {
             <div className={"flex justify-center items-center col-span-1 py-28"}>
             </div>
             <div className={"flex justify-center items-center col-span-1"}>
-                <div className={"bg-white/50 border-solid max-w-[500px] border-[1px] border-black rounded-[8px] py-16 px-15"}>
+                <div className={"bg-white/80 border-solid max-w-[500px] border-[1px] border-black rounded-[8px] py-16 px-15"}>
                     <h2 className={"font-bold text-[24px] mb-6"}>Interface</h2>
                     <p className={"mb-4"}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                     <Link href={"/interface"}>
-                        <a className={"inline-block py-4 px-6 border-solid border-[1px] border-black rounded-[5px]"}>Go to Interface</a>
+                        <a className={"inline-block py-4 px-6 border-solid border-black border-[2px] rounded-[5px]"}>Go to Interface</a>
                     </Link>
                 </div>
             </div>
@@ -54,7 +54,7 @@ export default function Home() {
                         </a>
                     </Link>
                     <Link href={"#"}>
-                        <a className={"block w-[200px] text-center py-[14px] rounded-[8px] border-solid border-[1px] border-black"}>
+                        <a className={"block w-[200px] text-center py-[14px] rounded-[8px] bg-transparent bg-[#FFAA00] text-white"}>
                             Mint NFT
                         </a>
                     </Link>

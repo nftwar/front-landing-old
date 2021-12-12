@@ -10,14 +10,14 @@ function Header() {
 					<Logo />
 					<div className={"flex gap-x-6"}>
 						<Link href={"/"}>Home</Link>
-						<Link href={"#"}>Market</Link>
-						<Link href={"#"}>Game</Link>
-						<Link href={"#"}>News</Link>
+						<Link href={"/market"}>Market</Link>
+						<Link href={"/market"}>Game</Link>
+						<Link href={"https://medium.com/@NFTWAR"}>News</Link>
 						<Link href={"/white-paper"}>Whitepaper</Link>
 					</div>
 				</div>
 				<div className={"flex items-center gap-x-9"}>
-					<Link href={"#"}>Token</Link>
+					{/* <Link href={"#"}>Token</Link> */}
 					<PlayButton />
 				</div>
 			</div>
