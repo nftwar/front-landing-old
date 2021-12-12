@@ -21,10 +21,10 @@ function Footer() {
 					
 					{/*	sns */}
 					<SnsContainer>
-						<SnsItems type="twitter"/>
-						<SnsItems type="medium"/>
-						<SnsItems type="youtube"/>
-						<SnsItems type="discord"/>
+						<SnsItems type="twitter" href="https://www.twitter.com/nftwar_games"/>
+						<SnsItems type="medium" href="https://medium.com/@NFTWAR"/>
+						<SnsItems type="youtube" href="https://www.youtube.com"/>
+						<SnsItems type="discord" href="https://www.discord.com"/>
 					</SnsContainer>
 				</div>
 				
