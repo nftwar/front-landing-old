@@ -25,7 +25,6 @@ function Footer() {
 						<SnsItems type="medium"/>
 						<SnsItems type="youtube"/>
 						<SnsItems type="discord"/>
-						<SnsItems type=""/>
 					</SnsContainer>
 				</div>
 				
