@@ -21,11 +21,11 @@ function Footer() {
 					
 					{/*	sns */}
 					<SnsContainer>
-						<SnsItems />
-						<SnsItems />
-						<SnsItems />
-						<SnsItems />
-						<SnsItems />
+						<SnsItems type="twitter"/>
+						<SnsItems type="medium"/>
+						<SnsItems type="youtube"/>
+						<SnsItems type="discord"/>
+						<SnsItems type=""/>
 					</SnsContainer>
 				</div>
 				
