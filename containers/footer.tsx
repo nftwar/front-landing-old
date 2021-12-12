@@ -9,12 +9,12 @@ function Footer() {
 			<div className={"container mx-auto py-7.5 px-10"}>
 				<div className={"flex items-start justify-between"}>
 					{/* logo and links*/}
-					<div className={"flex items-center gap-x-20"}>
+					<div className={"flex items-center"}>
 						<Logo />
 						
 						<div className={"flex items-center gap-x-16"}>
 							<Link href={"/about"}>About</Link>
-							<Link href={"#"}>Contact</Link>
+							<Link href={"mailto:contract@nftwar.games"}>Contact</Link>
 							<Link href={"/white-paper"}>Whitepaper</Link>
 						</div>
 					</div>
