@@ -8,5 +8,5 @@ export function UnityView() {
 		codeUrl: "/assets/webgl/nftwar-garage.wasm",
 	});
 
-    return <Unity unityContext={unityContext} />
+    return <Unity style={{border:'1px solid red', maxWidth:'1280px'}} unityContext={unityContext} />
 }
