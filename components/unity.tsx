@@ -2,10 +2,10 @@ import Unity, { UnityContext } from "react-unity-webgl";
 
 export function UnityView() {
     const unityContext = new UnityContext({
-		loaderUrl: "https://d3dgnplrqmrl5m.cloudfront.net/nftwar-garage.loader.js",
-		dataUrl: "https://d3dgnplrqmrl5m.cloudfront.net/nftwar-garage.data",
-		frameworkUrl: "https://d3dgnplrqmrl5m.cloudfront.net/nftwar-garage.framework.js",
-		codeUrl: "https://d3dgnplrqmrl5m.cloudfront.net/nftwar-garage.wasm",
+		loaderUrl: "/assets/webgl/nftwar-garage.loader.js",
+		dataUrl: "/assets/webgl/nftwar-garage.data",
+		frameworkUrl: "/assets/webgl/nftwar-garage.framework.js",
+		codeUrl: "/assets/webgl/nftwar-garage.wasm",
 	});
 
     return <Unity unityContext={unityContext} />
