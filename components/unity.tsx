@@ -2,10 +2,10 @@ import Unity, { UnityContext } from "react-unity-webgl";
 
 export function UnityView() {
     const unityContext = new UnityContext({
-		loaderUrl: "assets/webgl/Build.loader.js",
-		dataUrl: "assets/webgl/Build.data",
-		frameworkUrl: "assets/webgl/Build.framework.js",
-		codeUrl: "assets/webgl/Build.wasm",
+		loaderUrl: "https://d3dgnplrqmrl5m.cloudfront.net/nftwar-build.loader.js",
+		dataUrl: "https://d3dgnplrqmrl5m.cloudfront.net/nftwar-build.data",
+		frameworkUrl: "https://d3dgnplrqmrl5m.cloudfront.net/nftwar-build.ramework.js",
+		codeUrl: "https://d3dgnplrqmrl5m.cloudfront.net/nftwar-build.wasm",
 	});
 
     return <Unity unityContext={unityContext} />
