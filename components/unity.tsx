@@ -4,7 +4,7 @@ export function UnityView() {
     const unityContext = new UnityContext({
 		loaderUrl: "https://d3dgnplrqmrl5m.cloudfront.net/nftwar-garage.loader.js",
 		dataUrl: "https://d3dgnplrqmrl5m.cloudfront.net/nftwar-garage.data",
-		frameworkUrl: "https://d3dgnplrqmrl5m.cloudfront.net/nftwar-garage.ramework.js",
+		frameworkUrl: "https://d3dgnplrqmrl5m.cloudfront.net/nftwar-garage.framework.js",
 		codeUrl: "https://d3dgnplrqmrl5m.cloudfront.net/nftwar-garage.wasm",
 	});
 
