@@ -13,9 +13,9 @@ function Footer() {
 						<Logo />
 						
 						<div className={"flex items-center gap-x-16"}>
-							<Link href={"/about"}>About</Link>
+							{/* <Link href={"/about"}>About</Link> */}
 							<Link href={"mailto:contract@nftwar.games"}>Contact</Link>
-							<Link href={"/white-paper"}>Whitepaper</Link>
+							{/* <Link href={"/white-paper"}>Whitepaper</Link> */}
 						</div>
 					</div>
 					
@@ -29,7 +29,7 @@ function Footer() {
 				</div>
 				
 				{/* info */}
-				<div className={"flex items-center gap-x-7.5"}>
+				{/* <div className={"flex items-center gap-x-7.5"}>
 					<p className={"text-[0.875rem]"}>© 2021 — </p>
 					<p className={"text-[0.875rem] flex gap-x-[8px]"}>
 						<Link href={"/privacy"}>
@@ -40,7 +40,7 @@ function Footer() {
 							<span className={"font-normal"}>Terms</span>
 						</Link>
 					</p>
-				</div>
+				</div> */}
 				
 				{/* line */}
 				<div className={"h-px w-full bg-black mt-3.5"} />
