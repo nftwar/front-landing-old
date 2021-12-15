@@ -24,7 +24,7 @@ function Footer() {
 						<SnsItems type="twitter" href="https://www.twitter.com/nftwar_games"/>
 						<SnsItems type="medium" href="https://medium.com/@NFTWAR"/>
 						<SnsItems type="youtube" href="https://www.youtube.com"/>
-						<SnsItems type="discord" href="https://www.discord.com"/>
+						<SnsItems type="discord" href="https://discord.gg/E3uypkR22Z"/>
 					</SnsContainer>
 				</div>
 				
