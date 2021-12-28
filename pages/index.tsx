@@ -67,7 +67,7 @@ export default function Home() {
             </div>
             <img className="absolute w-full h-full z-[-1] object-cover" src="/assets/image/garage.png" alt="" />
         </section>
-        <section className={"relative flex justify-center items-center py-24 min-h-[400px]"}>
+        <section className={"relative flex justify-center items-center py-24 min-h-[900px]"}>
             <div className={"container mx-auto flex items-center justify-between"}>
                 <h3 className={"text-[32px] font-bold"}></h3>
                 <div className={"flex items-center gap-x-4"}>
