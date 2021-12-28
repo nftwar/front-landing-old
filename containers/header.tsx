@@ -1,6 +1,6 @@
 import { Logo } from "../components/logo";
 import { Link } from "../components/header/Link";
-import { PlayButton } from "../components/playButton";
+import { GoToInterfaceButton } from "../components/goToInterfaceButton";
 
 function Header() {
 	return (
@@ -18,7 +18,7 @@ function Header() {
 				</div>
 				<div className={"flex items-center gap-x-9"}>
 					{/* <Link href={"#"}>Token</Link> */}
-					<PlayButton />
+					<GoToInterfaceButton />
 				</div>
 			</div>
 		</header>

@@ -1,4 +1,4 @@
-import { PlayButton } from "../components/playButton";
+// import { GoToInterfaceButton } from "../components/goToInterfaceButton";
 import Link from "next/link";
 import { SnsContainer } from "../components/footer/sns/container";
 import { SnsItems } from "../components/footer/sns/items";
@@ -15,7 +15,7 @@ export default function Home() {
                 <p className={"mb-8 max-w-[400px]"}>
                     Comming Soon!
                 </p>
-                {/* <PlayButton /> */}
+                {/* <GoToInterfaceButton /> */}
 
                 {/*	sns */}
                 <div className={"mt-10 mb-10"}>
