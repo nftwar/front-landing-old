@@ -16,7 +16,7 @@ export default function Home() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <PlayButton />
+                {/* <PlayButton /> */}
 
                 {/*	sns */}
                 <div className={"mt-10 mb-10"}>
