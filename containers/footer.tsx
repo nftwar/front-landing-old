@@ -1,7 +1,7 @@
 import { Link } from "../components/footer/Link";
 import { Logo } from "../components/logo";
-import { SnsContainer } from "../components/footer/sns/container";
-import { SnsItems } from "../components/footer/sns/items";
+import { SnsContainer } from "../components/sns/container";
+import { SnsItems } from "../components/sns/items";
 
 function Footer() {
 	return (

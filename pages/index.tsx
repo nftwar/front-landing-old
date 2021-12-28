@@ -1,7 +1,7 @@
 // import { GoToInterfaceButton } from "../components/goToInterfaceButton";
 import Link from "next/link";
-import { SnsContainer } from "../components/footer/sns/container";
-import { SnsItems } from "../components/footer/sns/items";
+import { SnsContainer } from "../components/sns/container";
+import { SnsItems } from "../components/sns/items";
 
 export default function Home() {
   return (
