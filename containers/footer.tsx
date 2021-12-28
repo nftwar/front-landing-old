@@ -30,16 +30,7 @@ function Footer() {
 				
 				{/* info */}
 				<div className={"flex items-center gap-x-7.5"}>
-					<p className={"text-[0.875rem]"}>© 2021 — </p>
-					<p className={"text-[0.875rem] flex gap-x-[8px]"}>
-						<Link href={"/privacy"}>
-							<span className={"font-normal"}>Privacy</span>
-						</Link>
-						—
-						<Link href={"/terms"}>
-							<span className={"font-normal"}>Terms</span>
-						</Link>
-					</p>
+				
 				</div>
 				
 				{/* line */}
