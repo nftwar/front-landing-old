@@ -85,7 +85,7 @@ export default function Home() {
             </div>
             <img className="absolute w-full h-full z-[-1] object-cover" src="/assets/image/city.png" alt="" />
         </section>
-        <section className={"bg-[#303030] flex items-center justify-center py-[110px]"}>
+        {/* <section className={"bg-[#303030] flex items-center justify-center py-[110px]"}>
             <div className={"container mx-auto grid grid-cols-2 gap-x-[30px]"}>
                 <div className={"flex justify-center items-center bg-white grid-span-1 h-[360px] border-solid border-[1px] border-black rounded-[8px]"}>
                     <h1 className={"text-[32px]"}>needs image</h1>
@@ -121,7 +121,7 @@ export default function Home() {
                       <h1 className={"text-[32px]"}>needs image</h1>
                   </div>
               </div>
-          </section>
+          </section> */}
       </main>
   )
 }
