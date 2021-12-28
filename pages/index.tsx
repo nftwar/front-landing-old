@@ -76,7 +76,7 @@ export default function Home() {
                             Play dApp
                         </a>
                     </Link>
-                    <Link href={"#"}>
+                    <Link href={"/mint"}>
                         <a className={"block w-[200px] text-center py-[14px] rounded-[8px] bg-transparent bg-[#FFAA00] text-white"}>
                             Mint NFT
                         </a>
