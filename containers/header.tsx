@@ -12,7 +12,7 @@ function Header() {
 						<Link href={"/"}>Home</Link>
 						<Link href={"/market"}>Market</Link>
 						<Link href={"/game"}>Game</Link>
-						<Link href={"https://medium.com/@NFTWAR"}>News</Link>
+						<Link href={"https://medium.com/@NFTWAR"} target="_blank">News</Link>
 						<Link href={"/white-paper"}>Whitepaper</Link>
 					</div>
 				</div>
