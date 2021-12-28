@@ -1,5 +1,7 @@
 import { PlayButton } from "../components/playButton";
 import Link from "next/link";
+import { SnsContainer } from "../components/footer/sns/container";
+import { SnsItems } from "../components/footer/sns/items";
 
 export default function Home() {
   return (
@@ -15,6 +17,16 @@ export default function Home() {
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <PlayButton />
+
+                {/*	sns */}
+                <div className={"mt-10 mb-10"}>
+                    <SnsContainer>
+                        <SnsItems type="twitter_white" href="https://www.twitter.com/nftwar_games"/>
+                        <SnsItems type="medium_white" href="https://medium.com/@NFTWAR"/>
+                        <SnsItems type="youtube_white" href="https://www.youtube.com"/>
+                        <SnsItems type="discord_white" href="https://discord.gg/E3uypkR22Z"/>
+                    </SnsContainer>
+                </div>
             </div>
             <video
                 autoPlay
