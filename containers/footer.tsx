@@ -30,7 +30,7 @@ function Footer() {
 				
 				{/* info */}
 				<div className={"flex items-center gap-x-7.5"}>
-				
+					<p className={"text-[0.875rem]"}>Team Huffmen. All Rights Reserved</p>
 				</div>
 				
 				{/* line */}
