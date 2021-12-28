@@ -13,8 +13,7 @@ export default function Home() {
                 </div>
                 <h1 className={"mb-10 bold text-8"}>Ready to get started?</h1>
                 <p className={"mb-8 max-w-[400px]"}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Comming Soon!
                 </p>
                 {/* <PlayButton /> */}
 
@@ -47,7 +46,7 @@ export default function Home() {
                 <div className={"bg-white/80 border-solid max-w-[500px] border-[1px] border-black rounded-[8px] py-16 px-15"}>
                     <h2 className={"font-bold text-[24px] mb-6"}>Interface</h2>
                     <p className={"mb-4"}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. */}
                     </p>
                     <Link href={"/interface"}>
                         <a className={"inline-block py-4 px-6 border-solid border-black border-[2px] rounded-[5px]"}>Go to Interface</a>
