@@ -11,7 +11,7 @@ function Header() {
 					<div className={"flex gap-x-6"}>
 						<Link href={"/"}>Home</Link>
 						<Link href={"/market"}>Market</Link>
-						<Link href={"/market"}>Game</Link>
+						<Link href={"/game"}>Game</Link>
 						<Link href={"https://medium.com/@NFTWAR"}>News</Link>
 						<Link href={"/white-paper"}>Whitepaper</Link>
 					</div>
