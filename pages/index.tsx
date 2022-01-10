@@ -39,7 +39,7 @@ export default function Home() {
                 />
             </video>
         </section>
-        <section className={"bg-gradient-to-br from-[#303030] to-[#000000] relative grid grid-cols-1 py-24  min-h-[900px]"}>
+        <section className={"relative grid grid-cols-1 py-24  min-h-[900px]"}>
             <div className={"flex justify-center items-center col-span-1 py-28"}>
                 <iframe
                     src="https://player.vimeo.com/video/656964904?h=6f7873b7b9&title=0&byline=0&portrait=0"
@@ -50,6 +50,7 @@ export default function Home() {
                     allowFullScreen
                 ></iframe>
             </div>
+            <img className="absolute w-full h-full z-[-1] object-cover" src="/assets/image/video_back.png" alt="" />
         </section>
         <section className={"relative grid grid-cols-2 py-24 bg-black bg-black/25 min-h-[900px]"}>
             <div className={"flex justify-center items-center col-span-1 py-28"}>
