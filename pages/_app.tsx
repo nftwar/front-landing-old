@@ -1,5 +1,4 @@
-import "tailwindcss/tailwind.css";
-import "../styles/custom.css";
+import "../styles/custom.scss";
 import Head from "next/head";
 import Header from "../containers/header";
 import Footer from "../containers/footer";
